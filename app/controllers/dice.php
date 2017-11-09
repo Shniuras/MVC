@@ -42,4 +42,7 @@ class dice extends Controller {
         echo json_encode($result);
     }
 
+    public function play() {
+        
+    }
 }
