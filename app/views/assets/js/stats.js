@@ -31,7 +31,7 @@ var gamesChart = new Chart(ctx2, {
     }
 });
 
-$.getJSON("/MVC-Game/dice/topWinners",
+$.getJSON("/MVC/dice/topWinners",
     function(data) {
         console.log(data);
         $.each(data, function(i, field){
@@ -41,7 +41,7 @@ $.getJSON("/MVC-Game/dice/topWinners",
         });
     });
 
-$.getJSON("/MVC-Game/dice/topPlayers",
+$.getJSON("/MVC/dice/topPlayers",
     function(data) {
         console.log(data);
         $.each(data, function(i, field){

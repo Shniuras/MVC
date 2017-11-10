@@ -31,11 +31,11 @@
             <canvas id="winsChart"></canvas>
         </div>
         <div class="col">
-            <h3>Best gamers</h3>
+            <h3>Top gamers</h3>
             <canvas id="gamesChart"></canvas>
         </div>
     </div>
 </div>
-<script src="/MVC-Game/app/views/assets/js/stats.js"></script>
+<script src="/MVC/app/views/assets/js/stats.js"></script>
 </body>
 </html>

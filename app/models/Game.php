@@ -33,4 +33,7 @@ class Game {
                                       LIMIT :limit" , ["limit" => $count]
                                  );
     }
+    public function storeResult(string $username, int $result){
+        return $this->db->insert("INSERT into stats (username, result) VALUES (:username, :result)", ["username" => $username, "result" => $result]);
+    }
 }

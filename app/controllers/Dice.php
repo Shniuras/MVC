@@ -43,6 +43,14 @@ class dice extends Controller {
     }
 
     public function play() {
-        
+        $data['title'] = "CA Dice Game";
+        $data['header'] = "CA Dice Game";
+        $data['body'] = "This is the best game!";
+        $this->view("dice/play", $data);
+    }
+
+    public function addResult() {
+        $game = $this->model('Game');
+        echo $game->storeResult("Antanas", $_POST['result']);
     }
 }

@@ -1,6 +1,6 @@
 <?php
 
-class Stats extends Controller {
+    class Stats extends Controller {
 
 public function index() {
 

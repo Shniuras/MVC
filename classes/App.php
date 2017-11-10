@@ -10,7 +10,7 @@ class App {
     public function __construct() {
 
         session_start();
-        $_SESSION['username'] = "Jonas";
+        $_SESSION['username'] = "Antanas";
         // we are going to need a database object in this application
         $this->db = new Database;
 
